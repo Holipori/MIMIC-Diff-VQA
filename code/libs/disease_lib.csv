@@ -1,0 +1,31 @@
+id,report_name,official_name,location
+0,pleural effusions;pleural effusion;effusion;effusions;pleural fluid,pleural effusion,pleural
+1,volume loss;collapse;atelectasis;atelectases;atelectatic changes;atelectatic change,atelectasis,lung
+2,cardiomegaly;enlarged,cardiomegaly,heart
+3,enlargement of the cardiac silhouette,enlargement of the cardiac silhouette,heart
+4,pulmonary edema;edema,edema,lung
+5,hiatal hernia;hiatus hernia;hernia,hernia,
+6,pulmonary vascular congestion;vascular congestion,vascular congestion,lung
+7,hilar congestion,hilar congestion,
+8,pneumothorax,pneumothorax,lung
+9,cardiac decompensation;chf;congestive heart failure;heart failure,heart failure,heart
+10,lung opacification;airspace opacities;airspace opacity;opacification;opacity;opacities;lung opacity;lung opacities,lung opacity,lung
+11,pneumonia;infection,pneumonia,lung
+12,tortuosity of the descending aorta ,tortuosity of the descending aorta ,heart
+13,thoracolumbar scoliosis;scoliosis,scoliosis,
+14,gastric distention,gastric distention,
+15,hypoxemia,hypoxemia,
+16,hypertensive heart disease;htn,hypertensive heart disease,
+17,hematoma,hematoma,
+18,tortuosity of the thoracic aorta,tortuosity of the thoracic aorta,
+19,pulmonary contusion;contusion,contusion,lung
+20,emphysema,emphysema,lung
+21,granulomatous disease;granuloma,granuloma,
+22,calcifications;calcification,calcification,
+23,pleural thickening,pleural thickening,pleural
+24,thymoma,thymoma,
+25,blunting of the costophrenic angles;blunting of the right costophrenic angle;blunting of the left costophrenic angle;blunting of the costophrenic angle;blunting of the left costodiaphragmatic;blunting of the right costodiaphragmatic,blunting of the costophrenic angle,pleural
+26,consolidation,consolidation,
+27,fractures;fracture,fracture,
+28,pneumomediastinum,pneumomediastinum,mediastinum
+29,air collection,air collection,lung
