@@ -1,5 +1,5 @@
 # MIMIC-Diff-VQA
-MIMIC-Diff-VQA is a large-scale dataset for visual question answering in medical chest x-ray images. This repository provides the code for generating MIMIC-Diff-VQA dataset from MIMIC-CXR database.
+MIMIC-Diff-VQA is a large-scale dataset for visual question answering in medical chest x-ray images. This repository provides the code for generating MIMIC-Diff-VQA dataset from MIMIC-CXR database. For the code of the model used in our paper, "Expert Knowledge-Aware Image Difference Graph Representation Learning for Difference-Aware Medical Visual Question Answering," please refer to [EKAID](https://github.com/Holipori/EKAID).
 
 
 ## How to use
