@@ -1247,7 +1247,7 @@ def adding(pair, x):
 
 
 def statistic():
-    path = 'datasets/mimic_pair_questions_inICLR.csv'
+    path = 'datasets/mimic_pair_questions.csv'
     d = pd.read_csv(path)
     print('len',len(set(d['subject_id'])))
     types = ['abnormality','presence','view','location','level','type','difference']
@@ -1435,7 +1435,6 @@ def main():
     parser.add_argument("-j", "--extract_json", action='store_true',  help="extract KeyInfo json file")
     parser.add_argument("-q", "--gen_question", action='store_true', help="generate question-asnwer pairs")
     args = parser.parse_args()
-    args.gen_question = 1
     ### EXECUTING PART ####
     if not args.extract_json and not args.gen_question:
         print('please choose one option. either -j for json extraction or -q for question generation')
