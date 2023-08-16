@@ -43,6 +43,7 @@ def get_uni_csv(mimic_path): # generate file
         d.at[i,'split'] = find_split(dicom_id,d3)
         d.at[i,'study_date'] = d2[d2['dicom_id'] == dicom_id]['StudyDate'].values[0]
 
+    d['study_date'] = pd.to_datetime(d['study_date'])
     d['study_order'] = d.groupby('subject_id')['study_date'].rank(method='min')
     d.to_csv('../mimic_all.csv', index=False)
 

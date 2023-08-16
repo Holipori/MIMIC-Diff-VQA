@@ -1177,7 +1177,7 @@ def get_all_types_of_question(i, diseases_json, question_set_of_this_record,ques
 
     return question_set_of_this_record, pair_questions
 
-def question_gen(less_yes_no=True):
+def question_gen(less_yes_no=False):
     '''
     :param less_yes_no:  if generating less yes/no type questions
     :param small_sample: this parameter is for testing a small portion of data
