@@ -1434,13 +1434,14 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-j", "--extract_json", action='store_true',  help="extract KeyInfo json file")
     parser.add_argument("-q", "--gen_question", action='store_true', help="generate question-asnwer pairs")
+    parser.add_argument("-r", "--report_path", type=str, default='/home/xinyue/dataset/mimic_reports', help="path to the report folder")
     args = parser.parse_args()
     ### EXECUTING PART ####
     if not args.extract_json and not args.gen_question:
         print('please choose one option. either -j for json extraction or -q for question generation')
         exit()
     if args.extract_json:
-        gen_disease_json(report_path='/home/xinyue/dataset/mimic_reports', save=True)  # generate keyInfo data
+        gen_disease_json(report_path=args.report_path, save=True)  # generate keyInfo data
     if args.gen_question:
         question_gen()  # generate question csv
 
