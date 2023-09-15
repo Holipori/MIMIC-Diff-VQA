@@ -1,10 +1,12 @@
-# MIMIC-Diff-VQA
-MIMIC-Diff-VQA is a large-scale dataset for visual question answering in medical chest x-ray images. This repository provides the code for generating MIMIC-Diff-VQA dataset from MIMIC-CXR database. For the code of the model used in our paper, "Expert Knowledge-Aware Image Difference Graph Representation Learning for Difference-Aware Medical Visual Question Answering," please refer to [EKAID](https://github.com/Holipori/EKAID).
+# Medical-Diff-VQA
+Medical-Diff-VQA (originally MIMIC-Diff-VQA) is a large-scale dataset for visual question answering in medical chest x-ray images. This repository provides the code for generating Medical-Diff-VQA dataset from MIMIC-CXR database. For the code of the model used in our paper, "Expert Knowledge-Aware Image Difference Graph Representation Learning for Difference-Aware Medical Visual Question Answering," please refer to [EKAID](https://github.com/Holipori/EKAID).
 
-The MIMIC-Diff-VQA dataset we generated is currently under review on Physionet. We will provide the download link as soon as it is available. Since our dataset contains sensitive data, there are some necessary procedures to complete before accessing it. We suggest completing these procedures while waiting, so that you can save time once our dataset is finally released. Firstly, you need to apply to become a credentialed user on Physionet. After that, you need to complete the CITI Data or Specimens Only Research training. For more information, please refer to [this page](https://physionet.org/settings/credentialing/). 
+The Medical-Diff-VQA dataset is now available on [Physionet](https://physionet.org/content/medical-diff-vqa/1.0.0/).
+
+[//]: # (We will provide the download link as soon as it is available. Since our dataset contains sensitive data, there are some necessary procedures to complete before accessing it. We suggest completing these procedures while waiting, so that you can save time once our dataset is finally released. Firstly, you need to apply to become a credentialed user on Physionet. After that, you need to complete the CITI Data or Specimens Only Research training. For more information, please refer to [this page]&#40;https://physionet.org/settings/credentialing/&#41;. )
 
 ## How to use
-To generate a new MIMIC-Diff-VQA dataset(due to the randomness, the generated dataset will not be 100% the same as our provided one), please follow the steps below:
+To generate a new Medical-Diff-VQA dataset(due to the randomness, the generated dataset will not be 100% the same as our provided one), please follow the steps below:
 1. Enter the 'code' directory
     ```bash
     cd code
