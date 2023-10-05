@@ -1,8 +1,9 @@
 # Medical-Diff-VQA
-Medical-Diff-VQA (originally MIMIC-Diff-VQA) is a large-scale dataset for visual question answering in medical chest x-ray images. This repository provides the code for generating Medical-Diff-VQA dataset which is proposed in our paper "**Expert Knowledge-Aware Image Difference Graph Representation Learning for Difference-Aware Medical Visual Question Answering**" 
+Medical-Diff-VQA (originally MIMIC-Diff-VQA) is a large-scale dataset for visual question answering in medical chest x-ray images. This repository provides the code for generating Medical-Diff-VQA dataset, which is proposed in our paper "**Expert Knowledge-Aware Image Difference Graph Representation Learning for Difference-Aware Medical Visual Question Answering**" 
 
 For more information about the dataset and the method, please refer to our [paper](https://dl.acm.org/doi/abs/10.1145/3580305.3599819) or [project page](https://holipori.github.io/KDD2023-MIMIC-Diff-VQA/).
 
+For the code of the method, please refer to [EKAID](https://github.com/Holipori/EKAID).
 
 The Medical-Diff-VQA dataset is now available on [Physionet](https://physionet.org/content/medical-diff-vqa/1.0.0/).
 
