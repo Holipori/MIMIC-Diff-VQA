@@ -1074,13 +1074,13 @@ def diff_ques(record, ref_record):
     adding = []
     for name in finding_name:
         if name not in ref_finding_name:
-            if name == 'pneumonia' and 'infection' in ref_finding_name or name == 'infection' and 'pneumonia' in ref_finding_name:
+            if name == 'pneumonia' and 'infection' in ref_finding_name or name == 'infection' and 'pneumonia' in ref_finding_name or name in adding:
                 continue
             adding.append(name)
     missing = []
     for name in ref_finding_name:
         if name not in finding_name:
-            if name == 'pneumonia' and 'infection' in ref_finding_name or name == 'infection' and 'pneumonia' in ref_finding_name:
+            if name == 'pneumonia' and 'infection' in ref_finding_name or name == 'infection' and 'pneumonia' in ref_finding_name or name in missing:
                 continue
             missing.append(name)
     if adding != [] or missing != []:
@@ -1089,7 +1089,8 @@ def diff_ques(record, ref_record):
     if answer == '':
         answer = 'nothing has changed.'
 
-
+    if "pneumonia atelectasis" in answer:
+        print('a')
 
     return (question, answer)
 
