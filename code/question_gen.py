@@ -702,7 +702,11 @@ def abnormality_ques(record, less_yes_no):
 def get_exist_disease_id(record):
     id_set = set()
     for key in record['entity']:
-        id = df[df['report_name']==key]['id'].values
+        try:
+            id = df[df['report_name']==key]['id'].values
+        except:
+            key = key.strip()
+            id = df[df['report_name'] == key]['id'].values
         id_set.add(id[0])
     return id_set
 
