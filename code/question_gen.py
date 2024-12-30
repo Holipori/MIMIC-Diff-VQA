@@ -1228,7 +1228,9 @@ def question_gen(less_yes_no=False):
                     view = d_all[d_all['study_id'] == int(ref_id)]['view'].values[0]
                 except:
                     tried_ref_id_set.add(ref_id)
-                if ref_id not in tried_ref_id_set and (view == 'antero-posterior' or view == 'postero-anterior'):
+                study_order_ref = d_all[d_all['study_id']==int(ref_id)].study_order.values[0]
+                study_order_main = d_all[d_all['study_id']==int(diseases_json[i]['study_id'])].study_order.values[0]
+                if ref_id not in tried_ref_id_set and (view == 'antero-posterior' or view == 'postero-anterior') and study_order_ref < study_order_main:
                     tried_ref_id_set.add(ref_id)
                     break
                 tried_ref_id_set.add(ref_id)
