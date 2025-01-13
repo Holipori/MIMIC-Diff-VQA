@@ -1046,7 +1046,7 @@ def get_caption(adding, dropping,):
         output2 = output2 + ' than the reference image. '
     return output1 + output2
 
-def diff_ques(record, ref_record):
+def diff_ques(record, ref_record, question_set):
     question = question_set['difference'][0]
     entities = record['entity'].copy()
     # random shuffle the entities
