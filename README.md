@@ -5,7 +5,7 @@ For more information about the dataset and the method, please refer to our [pape
 
 For the code of the method, please refer to [EKAID](https://github.com/Holipori/EKAID).
 
-The Medical-Diff-VQA dataset is now available on [Physionet](https://physionet.org/content/medical-diff-vqa/1.0.0/).
+The Medical-Diff-VQA dataset is now available on [Physionet](https://physionet.org/content/medical-diff-vqa/1.0.1/).
 
 
 
